@@ -1,0 +1,272 @@
+.g11 {
+    width: 130px;
+    height: 130px;
+    /* background-color: rgba(0, 0, 255, 0.182); */
+    position: absolute;
+    left: 360px;
+    top: 150px;
+
+}
+
+
+/* body {
+    background-image: url(./ggggggg.png);
+
+} */
+
+.lef {
+    position: absolute;
+    width: 100px;
+    left: -7px;
+    top: 6px;
+    transition: 1s ease;
+}
+
+.rig {
+    position: absolute;
+    width: 115px;
+    left: 24px;
+    top: -5px;
+    transition: 1s ease;
+}
+
+.vv {
+    /* position: absolute; */
+    width: 52px;
+    /* top: 39px;
+    left: 9px; */
+
+}
+
+.vv2 {
+    position: absolute;
+    top: 43px;
+    left: 9px;
+    /* background-color: aquamarine; */
+    color: rgba(162, 21, 21, 0);
+    display: flex;
+    align-items: end;
+    /* background-color: beige; */
+    transition: 1s ease;
+}
+
+.vysoka {
+    position: absolute;
+    top: 0px;
+    left: 30px;
+    font-size: 27px;
+    font-weight: 800;
+}
+
+.sss22 {
+    position: absolute;
+    left: 31px;
+    top: 22px;
+    display: flex;
+    align-items: end;
+    transition: 1s ease;
+    /* background-color: aqua; */
+    color: rgba(162, 21, 21, 0);
+}
+
+.skola {
+    /* position: absolute; */
+    margin: 0px 0px 3px 5px;
+
+    /* background-color: aqua; */
+
+
+
+    font-size: 27px;
+    font-weight: 800;
+}
+
+
+.sss {
+    /* position: absolute; */
+    width: 38px;
+
+
+}
+
+.fff {
+    width: 40px;
+
+}
+
+.fff2 {
+    /* background-color: aquamarine; */
+    left: 63px;
+    top: 20px;
+    position: absolute;
+    display: flex;
+    align-items: end;
+    transition: 1s ease;
+    color: rgba(0, 0, 0, 0);
+}
+
+
+.finan {
+    margin: 0;
+    font-size: 27px;
+    font-weight: 800;
+    width: 120px;
+}
+
+.sss2 {
+
+    width: 39px;
+
+}
+
+.sss3 {
+    position: absolute;
+    left: 93px;
+    top: 44px;
+    transition: 1s ease;
+    display: flex;
+    align-items: end;
+    color: rgba(0, 0, 0, 0);
+
+}
+
+.sprav {
+    margin: 0;
+    font-size: 27px;
+    font-weight: 800;
+    margin-bottom: 2px;
+
+}
+
+.g22 {
+    width: 50px;
+    height: 50px;
+    /* background-color: aqua; */
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+
+
+
+
+
+
+.g11:hover .lef {
+    left: -180px;
+}
+
+.g11:hover .rig {
+    left: 193px;
+}
+
+.g11:hover .vv2 {
+    left: -160px;
+    color: rgb(194, 16, 16);
+}
+
+/* .g11:hover .sss {
+
+} */
+
+.g11:hover .sss22 {
+    left: -60px;
+    color: rgb(194, 16, 16);
+}
+
+.g11:hover .fff2 {
+    left: 30px;
+    color: black;
+}
+
+.g11:hover .sss3 {
+    left: 180px;
+    color: black;
+}
+/* --------------------- */
+
+p {
+    margin: 0;
+}
+
+
+.boy-content {
+    display: flex;
+    justify-content: center;
+}
+
+.glob {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: green;
+
+}
+
+
+.left  {
+    height: 115px;
+    transform: translate(65px, 19px);
+}
+.right  {
+    transform: translateX(-92px);
+    height: 100px;
+}
+
+.block-content {
+    transform: translate(-10px, 17px);
+    display: flex;
+    align-items: flex-end;
+}
+.block  {
+    display: flex;
+    align-items: flex-end;
+}
+.block-1 {
+transform: translateX(20px);
+}
+.block-2 {
+transform: translateX(3px);
+}
+.block-4 {
+transform: translateX(-5px);
+}
+
+.block-img-1, .block-img-4 { 
+    height: 35px;
+}
+.block-img-2, .block-img-3 {
+    height: 47px;
+}
+
+.block p {
+    /* display: none; */
+    font-size: 0;
+    opacity: 0;
+    transition: all 1s;
+    padding: 0;
+}
+.glob:hover p {
+    padding: 0 20px;
+    opacity: 1;
+    font-size: 16px;
+
+}
+
+/* ------------------ */
+/* 
+.line {
+   width: 600px;
+   height: 500px;
+   margin: 50px;
+   background: red; 
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.line-elem {
+    background-color: aqua;
+    height: 200px;
+
+} */
